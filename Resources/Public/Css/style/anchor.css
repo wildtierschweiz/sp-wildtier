@@ -1,0 +1,44 @@
+.pagelevel-0 /*main*/ a,
+.pagelevel-1 /*main*/ a,
+.pagelevel-2 /*main*/ a,
+.pagelevel-3 /*main*/ a,
+.pagelevel-4 /*main*/ a {
+  color:#9f3620 !important;
+}
+.pagelevel-0 /*main*/ a:hover,
+.pagelevel-1 /*main*/ a:hover,
+.pagelevel-2 /*main*/ a:hover,
+.pagelevel-3 /*main*/ a:hover {
+  text-decoration:underline;
+}
+
+/* search link inside language menu */
+.search-link {
+  color:#9f3620; 
+  padding-left:12px;
+  margin-left:20px;
+  background-image:url('/fileadmin/Images/wildtier/icons/lupe.png');
+  background-position:left;
+  background-size:10px;
+  background-repeat:no-repeat;
+}
+.search-link:hover {
+  text-decoration:underline; 
+}
+
+
+/* buttons form and html inlet */
+p a.link-button { 
+  padding:10px 20px 10px 20px;
+  background:#8e7d4e;
+  color:#fefefe !important;  
+  border:#9f3620 0px solid;
+  border-radius:10px; 
+  text-decoration:none;
+}
+p a.link-button:hover { 
+  background:#9f3620; 
+  color:#f7f8e4;
+  transition: background 0.25s ease-in-out;
+  text-decoration:none;
+}

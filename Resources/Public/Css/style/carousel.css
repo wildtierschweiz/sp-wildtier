@@ -1,0 +1,45 @@
+.carousel {
+  border-top:1px solid #8e7d4e;
+  padding-top:0px;
+}
+
+.carousel .carousel-text-inner h1,
+.carousel .carousel-text-inner h2 {
+  background:#fefefe;
+  opacity:0.8;
+  color:#8e7d4e !important; 
+}
+
+.carousel .carousel-text-inner h1 {
+  padding:15px 0 0 0;
+  margin:320px 0 0 0 !important; 
+  font-size:32px; 
+  font-family:'Open Sans';
+  font-weight:bold;
+}
+
+.carousel .carousel-text-inner h2 {
+  padding:5px; 
+  font-size:20px;  
+  text-decoration:none;
+  font-family:'Unna';
+}
+
+
+.carousel .carousel-inner .item {
+  padding:0 !important;
+}
+
+.carousel .glyphicon {
+  color: #fff;
+}
+
+.carousel a:hover {
+  text-decoration:none !important;
+}
+
+.carousel ol.carousel-indicators li {
+  height:10px;
+  width:10px;
+  border-radius:5px !important;
+}

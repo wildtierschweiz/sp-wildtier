@@ -1,0 +1,7 @@
+#
+# PageTS for sp-wildtier
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sp_wildtier/Configuration/TsConfig/Page/RTE.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sp_wildtier/Configuration/TsConfig/Page/TCEFORM.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sp_wildtier/Configuration/TsConfig/Page/TCEMAIN.tsconfig">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sp_wildtier/Configuration/TsConfig/Page/Mod/WebLayout/BackendLayouts.tsconfig">

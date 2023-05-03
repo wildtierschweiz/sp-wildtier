@@ -1,0 +1,83 @@
+######################
+#### DEPENDENCIES ####
+######################
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+
+
+##############################
+#### FLUID STYLED CONTENT ####
+##############################
+styles {
+    templates {
+        layoutRootPath = EXT:sp_wildtier/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:sp_wildtier/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:sp_wildtier/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:sp_wildtier/Resources/Public/Icons/logo.png
+        height = 200
+        width = 150
+    }
+    favicon {
+        file = EXT:sp_wildtier/Resources/Public/Icons/favicon.ico
+    }
+    preloader {
+        enable = 0
+    }
+    theme {
+        breadcrumb {
+            enableLevel = 1
+            enable = 1  
+        }
+        cookieconsent {
+            enable = 0
+        }
+        meta {
+            enable = 0
+        }
+        copyright {
+            enable = 0
+        }
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:sp_wildtier/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:sp_wildtier/Resources/Private/Partials/Page/
+        templateRootPath = EXT:sp_wildtier/Resources/Private/Templates/Page/
+    }
+    meta {
+        description =
+        author =
+        keywords =
+        viewport = width=device-width, initial-scale=1
+        robots = index,follow
+        apple-mobile-web-app-capable = no
+        compatible = IE=edge
+    }
+    tracking {
+        google {
+            trackingID = G-RQ1QZPVQ82
+            tagManagerContainerId = G-RQ1QZPVQ82
+            anonymizeIp = 1
+        }
+    }
+}
+
+
+##############
+### CONFIG ###
+##############
+#config {
+#    no_cache = 0
+#    removeDefaultJS = 0
+#    admPanel = 1
+#    prefixLocalAnchors = all
+#    headerComment = Site package Wildtier Schweiz
+#    sendCacheHeaders = 1
+#}

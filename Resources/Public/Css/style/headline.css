@@ -1,0 +1,36 @@
+/* ----------------------------------------------------------------- *\
+    headline
+\* ----------------------------------------------------------------- */
+
+h1.element-header {
+  font-family:'Open Sans';
+  font-size:15px;
+  font-weight:bold;
+  letter-spacing:1px;
+  color:#8e7d4e;
+  margin:0 0 20px 0;
+}
+
+h2.element-header,
+h2.element-subheader {
+  font-family:'Open Sans';
+  font-size:20px;
+  font-weight:100;
+  letter-spacing:0.5;
+  text-decoration:underline;
+  color:#111;
+  margin:0 0 20px 0; 
+}
+
+h2.element-header a:hover,
+h2.element-subheader a:hover,
+h2.element-header a,
+h2.element-subheader a { 
+  color:#9f3620 !important;
+  text-decoration:underline !important; 
+}
+
+h3 {
+  font-family:'Open Sans';
+  font-size:18px !important;
+}

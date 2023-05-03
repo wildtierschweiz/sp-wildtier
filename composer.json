@@ -1,0 +1,23 @@
+{
+    "name": "wildtier-schweiz/sp-wildtier",
+    "type": "typo3-cms-extension",
+    "description": "Site package for Wildtier Schweiz",
+    "homepage": "https://www.wildtier.ch",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^12.0",
+        "typo3/cms-rte-ckeditor": "^12.0",
+        "typo3/cms-fluid-styled-content": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WildtierSchweiz\\SpWildtier\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "sp_wildtier"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/* ----------------------------------------------------------------- *\
+    breadcrumb
+\* ----------------------------------------------------------------- */
+
+/* ---> general */
+nav.breadcrumb-section * {
+  font-family:'Open Sans'
+}
+nav.breadcrumb-section {
+  background:none;
+  border:none;
+}
+
+/* ---> breadcrumb bar */
+nav.breadcrumb-section ol.breadcrumb {
+  padding:2px 0 2px 0;
+  border-top:1px solid #8e7d4e;
+  background:none;
+}
+
+/* ---> breadcrumb bar */
+nav.breadcrumb-section ol.breadcrumb * {
+  font-size:15px;
+}
+
+/* ---> breadcrumb bar links */
+nav.breadcrumb-section ol.breadcrumb a {
+  color:#8e7d4e !important;
+}
+nav.breadcrumb-section ol.breadcrumb a:hover {
+  text-decoration:none;
+}

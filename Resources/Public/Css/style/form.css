@@ -1,0 +1,120 @@
+/* ===================================================
+   FORM
+=================================================== */
+
+/* ---> default font within forms */
+form * {
+  font-family:'Unna'; 
+}
+
+form h2 {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 0.5;
+  text-decoration: underline;
+  color: #111;
+  margin: 15px 0 15px 0; 
+}
+
+/* ---> marking of required fields */
+form span.required {
+  display:inline; 
+  color:#9f3620; 
+}
+
+form ol {
+  list-style:none;
+  padding:0;
+}
+ 
+form ol li ol li {
+  list-style:none;
+  padding:10px 0 0 0;
+}
+
+form select,
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width:100%;
+  border:1px solid #999 !important;
+  border-radius:0 !important;
+  padding:6px !important;
+}
+
+form textarea {
+  height:150px !important;
+}
+
+form input[type="checkbox"] {
+  display:inline;  
+}
+
+form input[type="radio"] {
+  margin-right:7px; 
+}
+
+/* ---> text field description */
+form small {
+  font-size:15px;
+}
+
+/* ---> labels */
+form label,
+form ol li label {
+  color:#333; 
+  font-weight:normal !important;
+  margin:10px 0 0 0;
+  display:inline; 
+  padding:3px;
+}
+
+/* ---> warn messages on invalid inputs */
+form div.invalid-feedback {
+  text-transform:none !important;
+  background:#f7f8e4;  
+  line-height:1em;
+  padding:5px 5px 5px 5px !important;
+  margin:0;
+  color:#9f3620;
+  font-size:15px;
+}
+
+/* ---> fieldsets / fieldset legends */
+form fieldset  {
+  margin:20px 0 20px 0 !important;
+  padding:15px;
+  border:1px solid #999;
+  background:#fafafa;
+} 
+form fieldset legend {
+  font-family: 'Open Sans';
+  border:none;
+  color:#8e7d4e;   
+  /*font-weight:200 !important;*/ 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ---> submit button */
+form button,
+form input[type="submit"],
+button.btn.btn-primary,
+a.btn.btn-primary { 
+  padding:5px 20px 5px 20px !important;
+  background:#8e7d4e !important;
+  color:#fefefe !important;  
+  border:#9f3620 0px solid !important;
+  border-radius:10px !important;
+}
+
+form button:hover,
+form input[type="submit"]:hover,
+button.btn.btn-primary:hover,
+a.btn.btn-primary:hover { 
+  background:#9f3620 !important; 
+  color:#f7f8e4 !important;
+  transition: background 0.25s ease-in-out !important;
+  text-decoration:none;
+}

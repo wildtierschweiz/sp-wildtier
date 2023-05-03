@@ -1,0 +1,63 @@
+/* ------------------------------------------------- *\
+    SUBNAVIGATION
+\* ------------------------------------------------- */
+
+/* general */
+ul.subnav-nav * {
+  font-family:'Open Sans' !important;
+}
+
+/* first level */
+ul.subnav-nav li.active { 
+  background:#8e7d4e; 
+}
+ul.subnav-nav li.active a {  
+  color:#fff;
+}
+ul.subnav-nav li.active a:hover { 
+  background:#8e7d4e; 
+  color:#fff;
+}
+
+/* second level */
+ul.subnav-nav li.active ul li { 
+  background:#f7f8e4; 
+}
+ul.subnav-nav li.active ul li a {  
+  color:#999;
+}
+ul.subnav-nav li.active ul li a:hover {  
+  color:#fff;
+}
+ul.subnav-nav li.active ul li.active { 
+  background:#8e7d4e; 
+}
+ul.subnav-nav li.active ul li.active a {  
+  color:#fff;
+}
+
+/* third level */
+ul.subnav-nav li.active ul li ul li a span {  
+  color:#999;
+}
+ul.subnav-nav li.active ul li ul li a:hover span {
+  color:#fff;  
+}
+ul.subnav-nav li.active ul li ul li.active a span {
+  color:#fff;  
+}
+
+/* corrections, other */
+ul.subnav-nav li.subnav-item a,
+ul.subnav-nav li.subnav-item.active ul li a {
+  color:#999 !important;
+}
+ul.subnav-nav li.subnav-item.active a,
+ul.subnav-nav li.subnav-item.active ul li a:hover,
+ul.subnav-nav li.subnav-item.active ul li.active a {
+  color:#fff !important;
+  
+}
+ul.subnav-nav li.subnav-item a.subnav-link:hover {
+  text-decoration:none !important;
+}

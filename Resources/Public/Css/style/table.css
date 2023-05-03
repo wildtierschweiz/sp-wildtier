@@ -1,0 +1,21 @@
+table {
+  width:100%;
+}
+
+table tr:nth-child(1) {
+  border-top:1px solid #ddd;
+}
+
+table tr {
+  border-bottom:1px solid #ddd;
+}
+
+table tr:hover {
+  background: #eee;
+}
+
+table tr td {
+  font-family:'Unna';
+  font-size:16px;
+  padding:8px;
+}

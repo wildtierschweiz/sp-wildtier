@@ -1,0 +1,48 @@
+/* ----------------------------------------------------------------- *\
+    google fonts import
+\* ----------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Lato|Unna|Open+Sans');
+
+/* ----------------------------------------------------------------- *\
+    style modules import
+\* ----------------------------------------------------------------- */
+@import url('style/container.css');
+@import url('style/paragraph.css');
+@import url('style/anchor.css');
+@import url('style/list.css');
+@import url('style/headline.css');
+@import url('style/form.css');
+@import url('style/subnavigation.css');
+@import url('style/breadcrumb.css');
+@import url('style/carousel.css');
+@import url('style/iframe.css');
+@import url('style/navigation.css');
+@import url('style/footer.css');
+@import url('style/images.css');
+@import url('style/news.css');
+@import url('style/table.css');
+
+/* text-selection color */
+::-moz-selection {
+  background:#f7f8e4 !important;
+  color:#333; 
+}
+
+::selection {
+  background:#f7f8e4 !important;
+  color:#333; 
+  
+}
+
+
+.scroll-top,
+.scroll-top-icon {
+  background-color:#9f3620;
+  color:#fefefe;
+}
+
+.scroll-top:hover,
+.scroll-top-icon:hover {
+  background-color:#9f3620;
+  color:#fefefe;
+}

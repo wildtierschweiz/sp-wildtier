@@ -1,0 +1,74 @@
+/* ---> front page ----------------------- */
+.page-37 .section.section-default .frame.frame-default {
+  margin:0;
+  padding:0;
+  
+}
+
+.page-37 .section.section-light {
+  padding:60px 0 60px 0;
+  border:0;
+  background-color:#fefefe;
+}
+
+.page-37 .section.section-primary {
+  border:0;
+}
+
+.page-37 .section.section-light:last-child {
+  display:none !important;
+}
+
+
+/*
+html.sizes.customelements.history.pointerevents.postmessage.postmessage-structuredclones.webgl.websockets.cssanimations.csscolumns.csscolumns-width.csscolumns-span.csscolumns-fill.csscolumns-gap.csscolumns-rule.csscolumns-rulecolor.csscolumns-rulestyle.csscolumns-rulewidth.no-csscolumns-breakbefore.no-csscolumns-breakafter.no-csscolumns-breakinside.flexbox.picture.srcset.webworkers body#p166.page-166.pagelevel-1.language-0.backendlayout-3_columns.layout-default div.body-bg div#page-content.bp-page-content.main-section div.section.section-default div.container div.section-row {
+  --section-columns: 12;
+  --section-colspan: 12;
+  --section-gaps: 0;
+  --section-gap: 40px;
+  display: flex;
+  gap: var(--section-gap);
+}
+*/
+
+/* ---> light background -------------------- */
+.frame.frame-default.frame-background-light {
+  border:0px solid;
+  background:#f7f8e4;
+  padding:10px;
+  margin:0 0 25px 0 !important;
+}
+
+/* ---> primary background -------------------- */
+
+.frame.frame-default.frame-background-primary {
+  background:#fff;
+  border:1px solid #af9f6f;
+  padding:0 !important;
+  margin:0 0 25px 0 !important;
+}
+.frame.frame-default.frame-background-primary:hover {
+  border:1px solid #8e7d4e;
+}
+.frame.frame-default.frame-background-primary a {
+  width:100% !important;
+  display:block;
+  text-decoration:none;
+  color:#af9f6f !important; 
+  padding:15px;
+}
+.frame.frame-default.frame-background-primary a:hover {
+  color:#8e7d4e !important; 
+}
+.frame.frame-default.frame-background-primary h1 {
+  font-size:20px;
+  margin-top:0;  
+  margin-bottom:10px;
+  font-weight:bold;
+  font-family:'Open Sans';
+}
+.frame.frame-default.frame-background-primary p {
+  font-size:12pt;
+  margin-bottom:0;  
+ font-family:'Unno'; 
+}

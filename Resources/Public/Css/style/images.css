@@ -1,0 +1,6 @@
+main img,
+figure img,
+.news-list-item img,
+.news-single-img img {
+  border:1px solid #ccc;
+}
