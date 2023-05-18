@@ -21,7 +21,7 @@ styles {
 ############
 page {
     logo {
-        file = EXT:sp_wildtier/Resources/Public/Icons/logo.png
+        file = EXT:sp_wildtier/Resources/Public/Images/logo.png
         height = 200
         width = 150
     }
