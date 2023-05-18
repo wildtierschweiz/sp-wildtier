@@ -1,0 +1,29 @@
+{namespace formvh=TYPO3\CMS\Form\ViewHelpers}
+Guten Tag,
+Herzlichen Dank für die Anmeldung.
+Weitere Informationen werden wir bei gegebener Zeit noch zustellen.
+Mit freundlichen Grüssen,
+SGW
+
+		<formvh:renderAllFormValues renderable="{form.formDefinition}" as="formValue">
+			
+				{formvh:translateElementProperty(element: formValue.element, property: 'label')}</td>
+				
+					<f:if condition="{formValue.value}">
+						<f:then>
+							<f:if condition="{formValue.isMultiValue}">
+								<f:then>
+										<f:for each="{formValue.processedValue}" as="value">
+											{value}
+										</f:for>
+								</f:then>
+								<f:else>
+										<f:format.nl2br>{formValue.processedValue}</f:format.nl2br>
+								</f:else>
+							</f:if>
+						</f:then>
+						<f:else>
+							-
+						</f:else>
+					</f:if>
+		</formvh:renderAllFormValues>
