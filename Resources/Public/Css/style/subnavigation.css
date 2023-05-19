@@ -47,6 +47,17 @@ ul.subnav-nav li.active ul li ul li.active a span {
   color:#fff;  
 }
 
+/* forth level */
+ul.subnav-nav li.active ul li ul li ul li a span {  
+  color:#999;
+}
+ul.subnav-nav li.active ul li ul li ul li a:hover span {
+  color:#fff;  
+}
+ul.subnav-nav li.active ul li ul li ul li.active a span {
+  color:#fff;  
+}
+
 /* corrections, other */
 ul.subnav-nav li.subnav-item a,
 ul.subnav-nav li.subnav-item.active ul li a {
