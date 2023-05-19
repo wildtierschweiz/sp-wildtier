@@ -42,3 +42,7 @@ p a.link-button:hover {
   transition: background 0.25s ease-in-out;
   text-decoration:none;
 }
+
+.filelink-filename {
+  color: #9f3620; 
+}
