@@ -23,7 +23,7 @@ page {
         dataProcessing { 
             20 {
                 entryLevel = 1
-                levels = 3
+                levels = 4
                 expandAll = 0
                 includeSpacer = 1 
             } 
