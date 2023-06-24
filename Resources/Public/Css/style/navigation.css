@@ -60,6 +60,10 @@ header nav ul.navbar-nav li.active.dropdown a span {
   border-bottom: 4px solid #8e7d4e;
 }
 
+.navbar-mainnavigation {
+  --mainnavigation-hightlight: #8e7d4e;
+}
+
 header nav ul.navbar-nav li.dropdown.show a {
   background: #8e7d4e;
 }
