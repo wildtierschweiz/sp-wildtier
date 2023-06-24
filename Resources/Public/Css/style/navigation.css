@@ -10,8 +10,7 @@ header.navbar-mainnavigation {
 header nav ul.language-menu {
   font-family: 'Open Sans';
   font-size: 12px;
-  margin: 100px 0 0 0;
-  width: 100% !important;
+  width: 150px;
   text-align: right;
 }
 
@@ -24,6 +23,14 @@ header nav ul.language-menu li {
 header nav ul.language-menu li a {
   color: #8e7d4e !important;
   text-decoration: none !important;
+}
+
+/* navbar general - when collapsed */
+@media screen and (max-width: 991px) {
+  header nav ul.language-menu {
+    width: 100%;
+    margin-top: 100px;
+  }
 }
 
 header nav ul.language-menu li.text-muted {
