@@ -71,8 +71,8 @@ header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-lin
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-divider-margin-y: 0.5rem;
   --bs-dropdown-box-shadow: none;
-  --bs-dropdown-link-color: var(--bs-body-color);
-  --bs-dropdown-link-hover-color: var(--bs-body-color);
+  --bs-dropdown-link-color: #ffffff;
+  --bs-dropdown-link-hover-color: #ffffff;
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
   --bs-dropdown-link-active-color: #ffffff;
   --bs-dropdown-link-active-bg: #8e7d4e;
