@@ -55,7 +55,7 @@ header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-lin
 }
 
 /* mainnav dropdown */
-header.navbar.navbar-top div.container.container-mainnavigation nav.collapse.navbar-collapse ul.navbar-nav li.nav-item div.dropdown-menu {
+.dropdown-menu {
   --bs-dropdown-zindex: 1000;
   --bs-dropdown-min-width: 10rem;
   --bs-dropdown-padding-x: 0;
