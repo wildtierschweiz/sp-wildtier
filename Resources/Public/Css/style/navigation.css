@@ -1,0 +1,39 @@
+header nav * {
+  font-family: 'Open Sans';
+}
+
+header.navbar-mainnavigation {
+  box-shadow: none;
+}
+
+/* language menu */
+header nav ul.language-menu {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  margin: 100px 0 0 0;
+  width: 100% !important;
+  text-align: right;
+}
+
+header nav ul.language-menu li {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+}
+
+header nav ul.language-menu li a {
+  color: #8e7d4e !important;
+  text-decoration: none !important;
+}
+
+header nav ul.language-menu li.text-muted {
+  display: none;
+}
+
+header nav ul.language-menu li.active {
+  background: #8e7d4e !important;
+}
+
+header nav ul.language-menu li.active a {
+  color: #fefefe !important;
+}
