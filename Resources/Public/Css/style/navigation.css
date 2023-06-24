@@ -98,3 +98,7 @@ header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-lin
   border-radius: var(--bs-dropdown-border-radius);
   box-shadow: var(--bs-dropdown-box-shadow);
 }
+
+.nav-link-text {
+  color: #ffffff !important;
+}
