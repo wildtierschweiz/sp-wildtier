@@ -46,23 +46,14 @@ header nav ul.language-menu li.active a {
 }
 
 /* navbar general */
-header nav ul.navbar-nav li.dropdown a:hover {
+header.bp-page-header.navbar.navbar-mainnavigation.navbar-default.navbar-has-image.navbar-top div.container.container-mainnavigation nav.collapse.navbar-collapse ul.navbar-nav li.nav-item.nav-style-mega a.nav-link.nav-link-main:hover {
   text-decoration: none;
 }
 
-header nav ul.navbar-nav li.dropdown a.dropdown-toggle span {
-  font-family: 'Open Sans';
-  border-bottom: 4px solid transparent;
-  box-shadow: none;
-}
-
-.navbar-mainnavigation .navbar-nav>li>.nav-link::before {
-  background: none !important;
-}
-
-header nav ul.navbar-nav li.dropdown a.dropdown-toggle {
+header.bp-page-header.navbar.navbar-mainnavigation.navbar-default.navbar-has-image.navbar-top div.container.container-mainnavigation nav.collapse.navbar-collapse ul.navbar-nav li.nav-item.nav-style-mega a.nav-link.nav-link-main span.nav-link-text {
   color: #8e7d4e !important;
 }
+
 
 /* active top menu entry */
 header nav ul.navbar-nav li.active.dropdown a span {
