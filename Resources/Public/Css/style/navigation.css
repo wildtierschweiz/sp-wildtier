@@ -46,10 +46,10 @@ header nav ul.language-menu li.active a {
 }
 
 /* navbar general */
-header.bp-page-header.navbar.navbar-mainnavigation.navbar-default.navbar-has-image.navbar-top div.container.container-mainnavigation nav.collapse.navbar-collapse ul.navbar-nav li.nav-item.nav-style-mega a.nav-link.nav-link-main:hover {
+header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-link-main:hover {
   text-decoration: none;
 }
 
-header.bp-page-header.navbar.navbar-mainnavigation.navbar-default.navbar-has-image.navbar-top div.container.container-mainnavigation nav.collapse.navbar-collapse ul.navbar-nav li.nav-item.nav-style-mega a.nav-link.nav-link-main span.nav-link-text {
+header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-link-main {
   color: #8e7d4e !important;
 }
