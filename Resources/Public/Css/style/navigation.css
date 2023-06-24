@@ -53,3 +53,8 @@ header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-lin
 header nav.collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link.nav-link-main {
   color: #8e7d4e !important;
 }
+
+/* mainnav dropdown */
+.dropdown-menu {
+	border-radius: 0;
+}
