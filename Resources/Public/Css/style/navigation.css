@@ -25,7 +25,7 @@ header nav ul.language-menu li a {
   text-decoration: none !important;
 }
 
-/* navbar general - when collapsed */
+/* navbar when collapsed */
 @media screen and (max-width: 991px) {
   header nav ul.language-menu {
     width: 100%;
@@ -43,4 +43,92 @@ header nav ul.language-menu li.active {
 
 header nav ul.language-menu li.active a {
   color: #fefefe !important;
+}
+
+/* navbar general */
+header nav ul.navbar-nav li.dropdown a:hover {
+  text-decoration: none;
+}
+
+header nav ul.navbar-nav li.dropdown a.dropdown-toggle span {
+  font-family: 'Open Sans';
+  border-bottom: 4px solid transparent;
+  box-shadow: none;
+}
+
+.navbar-mainnavigation .navbar-nav>li>.nav-link::before {
+  background: none !important;
+}
+
+header nav ul.navbar-nav li.dropdown a.dropdown-toggle {
+  color: #8e7d4e !important;
+}
+
+/* active top menu entry */
+header nav ul.navbar-nav li.active.dropdown a span {
+  border-bottom: 4px solid #8e7d4e;
+}
+
+header nav ul.navbar-nav li.dropdown.show a {
+  background: #8e7d4e;
+}
+
+header nav ul.navbar-nav li.dropdown a.dropdown-item.active span {
+  text-decoration: underline;
+}
+
+/* top menu entry - mouseover */
+header nav ul.navbar-nav li a:hover,
+header nav ul.navbar-nav li.dropdown a.dropdown-toggle:hover {
+  color: #8e7d4e;
+}
+
+/* top menu entry, when submenu is open */
+header nav ul.navbar-nav li.dropdown.show a.dropdown-toggle {
+  color: #fefefe !important;
+  background: #8e7d4e;
+}
+
+header nav ul.navbar-nav li.dropdown.show {
+  background: #8e7d4e;
+}
+
+/* dropdown submenu */
+header nav ul.navbar-nav ul.dropdown-menu {
+  background: #8e7d4e;
+  border: none !important;
+  border-radius: 0;
+}
+
+/* dropdown submenu link */
+header nav ul.navbar-nav ul.dropdown-menu li a {
+  color: #ffffff !important;
+}
+
+/* dropdown submenu link - mouseover */
+header nav ul.navbar-nav ul.dropdown-menu li a:hover {
+  text-decoration: underline;
+  background: none;
+}
+
+/* active submenu entry */
+header nav ul.navbar-nav li.dropdown li.active a {
+  background: #8e7d4e !important;
+  text-decoration: underline !important;
+}
+
+@media screen and (max-width : 991px) {
+  header nav ul.navbar-nav li a span {
+    padding-left: 4px;
+    border-left: 4px solid #fff;
+  }
+
+  header nav ul.navbar-nav li.active.dropdown a span {
+    border-bottom: 4px solid transparent;
+  }
+
+  header nav ul.navbar-nav li.dropdown.show a span {
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+  }
 }
