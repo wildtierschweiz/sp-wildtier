@@ -10,24 +10,6 @@
 $('.language-menu').appendTo('nav#mainnavigation');
 $('.language-menu').addClass('pull-right');
 
-
-/* ------------------------------------------------------ *\
-    WELCOME PAGE: TRANSFORM NEWS LIST
-\* ------------------------------------------------------ */
-
-// for every news item in the list
-$('html.sizes.customelements.history.pointerevents.postmessage.postmessage-structuredclones.webgl.websockets.cssanimations.csscolumns.csscolumns-width.csscolumns-span.csscolumns-fill.csscolumns-gap.csscolumns-rule.csscolumns-rulecolor.csscolumns-rulestyle.csscolumns-rulewidth.no-csscolumns-breakbefore.no-csscolumns-breakafter.no-csscolumns-breakinside.flexbox.picture.srcset.webworkers body#p166.page-166.pagelevel-1.language-0.backendlayout-3_columns.layout-default div.body-bg div#page-content.bp-page-content.main-section div.section.section-default div.container div.section-row div.section-column.subcontent-wrap').each(function () {
-    // get image and anchor from first column
-    $img_link = $(this).find('.col-md-3 a');
-    // prepend to second column)
-    $(this).find('.col-md-9').prepend($img_link);
-    // remove first column
-    $(this).find('.col-md-3').remove();
-    // exchange column class
-    $(this).find('.col-md-9').removeClass('col-md-9').addClass('col-md-12');
-});
-
-
 /* ------------------------------------------------------ *\
     HOME PAGE: TRANSFORM NEWS LIST
 \* ------------------------------------------------------ */
